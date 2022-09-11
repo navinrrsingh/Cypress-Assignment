@@ -5,9 +5,9 @@ import { linkedInHome } from "../support/pageobject/linkedIn-home-po";
 import { linkedInUserHomepage } from "../support/pageobject/linkedIn-user-homepage-po";
 
 describe("Level #4: Automate login and logout tests on Linkedin site", function () {
-  // automating log for production authentication is not best practise.
+  // automating authentication to production application is not best practise.
   // Specially when there are secuirty check to detect if user is human
-  // In realy like we disable MFA and Security check in test env to do functional test automation
+  // In real-life automation, we disable MFA and Security check in test env to do functional test automation
   it("LinkedIn Login Failure due to Security Checks", () => {
     linkedInHome.visit();
     linkedInHome
