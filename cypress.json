@@ -1,0 +1,25 @@
+{
+  "chromeWebSecurity": false,
+  "retries": { "runMode": 0, "openMode": 0 },
+  "fixturesFolder": "./cypress/fixtures",
+  "integrationFolder": "./cypress/integration",
+  "pluginsFile": "./cypress/plugins/index.js",
+  "supportFile": "./cypress/support/index.js",
+  "testFiles": "**/*spec.js",
+  "screenshotsFolder": "./cypress/reports/screenshots",
+  "videosFolder": "./cypress/reports/videos",
+  "downloadsFolder": "./cypress/reports/downloads",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "projectId": "it2goc",
+  "baseUrl": "https://www.linkedin.com",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "./cypress/reports/testreport",
+    "charts": true,
+    "reportPageTitle": "ElisaPolystar Assigment",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false
+}
