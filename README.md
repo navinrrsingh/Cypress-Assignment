@@ -7,19 +7,19 @@ npx cypress run --env app=Cypress
 
 ## Level #1: Document your cypress project in README.md file
 
-pre-requisite:
+### pre-requisite:
 node.js need to be installed
 
-install dependencies:
+### install dependencies:
 1. clone the code
 2. Open in vscode
 3. (node.js should be installed as prerequisite)
 4. run npm install in terminal
 
-recommended IDE:
+### recommended IDE:
 VSCode but you can used any suitable IDE
 
-Common Commands:
+### Common Commands:
 1.Run all the test:
    npx cypress run
 2.Run specific test:
