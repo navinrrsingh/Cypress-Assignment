@@ -1,3 +1,4 @@
+# Challenges solution and comments:
 ## Level #0: Setup a Cypress multi-site test framework
 To run test for either LinkedIn or Cypess use following command in terminal:
 npx cypress run --env app=LinkedIn
